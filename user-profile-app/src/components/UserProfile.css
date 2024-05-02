@@ -1,0 +1,44 @@
+html, body {
+    height: 100%; /* Full height to the root elements */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+.profile-card {
+    border: 6px solid black;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 350px; /* Adjust height as necessary */
+    margin: 20px auto;
+    padding: 10px;
+    background: white;
+  }
+  
+  .profile-container {
+    display: flex;
+    width: 100%; /* Ensure the container fills the card */
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .profile-image {
+    border: 6px solid black;
+    margin-right: 30px; /* Space between image and details */
+  }
+  
+  .profile-image img {
+    width: 230px;  /* Adjust size as needed */
+    height: 220px; /* Adjust size as needed */
+    object-fit: cover;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the details vertically */
+    margin-left: 20px;
+    margin-bottom: 60px;
+  }
+  
